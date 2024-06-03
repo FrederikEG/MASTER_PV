@@ -1,0 +1,83 @@
+Model variation IAM
+
+# GHI_sensor: SPN1
+# sky_model_inf: isotropic
+# sky_model_simple: isotropic
+# shadow_interpolate: true
+# temp_sensor: default
+# spectral_mismatch_model: None
+# wind_sensor: default
+# RH_sensor: default
+# shadow: False
+# inverter_model: Sandia
+# model_perez: allsitescomposite1990
+# mount_type: Vertical
+# iam_apply: False
+# inverter_limit: True
+# DNI_model: simple
+# transposition: inf
+model,Noneback
+number data,2092.0
+nRMSE,15.202784665320074
+R^2,0.981
+slope,0.9528933716233177
+offset,1.2107728587395847
+nRMSE_adjusted,13.699417020614607
+
+# GHI_sensor: SPN1
+# sky_model_inf: isotropic
+# sky_model_simple: isotropic
+# shadow_interpolate: true
+# temp_sensor: default
+# spectral_mismatch_model: None
+# wind_sensor: default
+# RH_sensor: default
+# shadow: False
+# inverter_model: Sandia
+# model_perez: allsitescomposite1990
+# mount_type: Vertical
+# iam_apply: ashrae
+# inverter_limit: True
+# DNI_model: simple
+# transposition: inf
+model,ASHRAEback
+number data,2092.0
+nRMSE,11.776837022079887
+R^2,0.987
+slope,0.9770228484391333
+offset,6.8226407921715175
+nRMSE_adjusted,11.514743537226328
+
+# GHI_sensor: SPN1
+# sky_model_inf: isotropic
+# sky_model_simple: isotropic
+# shadow_interpolate: true
+# temp_sensor: default
+# spectral_mismatch_model: None
+# wind_sensor: default
+# RH_sensor: default
+# shadow: False
+# inverter_model: Sandia
+# model_perez: allsitescomposite1990
+# mount_type: Vertical
+# iam_apply: SAPM
+# inverter_limit: True
+# DNI_model: simple
+# transposition: inf
+model,SAPMback
+number data,2092.0
+nRMSE,11.607903000646573
+R^2,0.987
+slope,0.9737866111721467
+offset,7.380628314550154
+nRMSE_adjusted,11.270664644118765
+
+# model_dict is not a dictionary, skipping...
+model,back
+number data,
+nRMSE,
+R^2,
+slope,
+offset,
+nRMSE_adjusted,
+

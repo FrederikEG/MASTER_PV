@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+/instructions_data_download
+/old_scripts
+missing_data_intervals.txt
+TODOS.txt
+para_intro_datatime.py
+data/Weather_station_data/CR1000XSeries_Table2_old.dat
